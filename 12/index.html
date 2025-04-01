@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Interface</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="tabs">
+        <div class="tab active" onclick="switchTab(0)">Tab 1</div>
+        <div class="tab" onclick="switchTab(1)">Tab 2</div>
+        <div class="tab" onclick="switchTab(2)">Tab 3</div>
+    </div>
+
+    <div id="content-0" class="content active">This is content for Tab 1.</div>
+    <div id="content-1" class="content">This is content for Tab 2.</div>
+    <div id="content-2" class="content">This is content for Tab 3.</div>
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+</html>

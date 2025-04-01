@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.accordion {
+    max-width: 500px;
+    margin: auto;
+}
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.accordion-title {
+    background: #f1f1f1;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: background 0.3s;
+}
+.accordion-title:hover {
+    background: #ddd;
+}
+.accordion-content {
+    padding: 15px;
+    display: none;
+    background: #fff;
+    overflow: hidden;
+}
+.active {
+    display: block;
+}
